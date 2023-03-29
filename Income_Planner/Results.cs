@@ -47,18 +47,15 @@ namespace Income_Planner
         {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.SetTitle("Confirmation");
-            alert.SetMessage("Do you want to cancel?");
+            alert.SetMessage("Are you sure you want to go back?");
 
             alert.SetPositiveButton(
-                "OK", (x, y) =>
+                "Yes", (x, y) =>
                 {
-
-
                     Intent i = new Intent(this, typeof(MainActivity));
                     StartActivity(i);
                 });
 
-      
             alert.SetNegativeButton("Cancel", delegate
             {
                 Toast.MakeText(this, "You have cancelled the action!", ToastLength.Long).Show();
