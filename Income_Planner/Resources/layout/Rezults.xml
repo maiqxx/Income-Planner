@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+       <TextView
+        android:text="Annual Work Summary"
+        android:layout_width="289.5dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="40px"
+        android:id="@+id/textView3" />
+
+        <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWorkSum" />
+        <TextView
+        android:text="Annual Gross Income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="40px"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/background_dark" />
+    
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGrossIncome" />
+
+
+    <TextView
+        android:text="Annual Tax Payable"
+        android:layout_width="289.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textSize="40px"
+        android:id="@+id/textView3" />
+        <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTaxPay" />
+
+    <TextView
+        android:text="Annual Savings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:textSize="40px"
+        android:id="@+id/textView4" />
+        <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSavings" />
+
+    <TextView
+        android:text="Spendable Income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:id="@+id/textView5"
+        android:textSize="40px"
+        android:textStyle="bold" />
+       <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSpendableIncome" />
+
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
